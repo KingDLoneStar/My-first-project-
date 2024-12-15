@@ -1,0 +1,70 @@
+/* .page{
+ width: 1000px;
+height: 80%;
+background-color: grey;
+box-sizing: border-box;
+border: solid white;
+border-width: 80%;
+
+
+} */
+body {
+    background-color: aliceblue;
+}
+
+.main { font-family: Arial, Helvetica, sans-serif;
+    position: relative ;
+    top: 200px;
+    left: 35%;
+}
+.header {
+    color: blue;
+}
+
+form {
+    border: 2px solid white;
+    border-width: 80%;
+    border-style: solid;
+    background-color: white;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+  padding: 10px 20px;
+
+}
+
+input { 
+    border: solid aliceblue;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+
+}
+.b1 {
+    border: solid blue;
+    color: white;
+    background-color: blue;
+    width: 100%;
+    border-radius: 7%;
+}
+.forgot {
+    color: lightblue;
+}
+
+.b2 {
+    border: solid green;
+    color: white;
+    background-color: green;
+    width: 100%;
+    border-radius: 7%;
+}
+.b1:hover { background-color: lightblue;}
+.b2:hover { background-color: lightgreen;
+    outline: none;}
+.forgot:hover { color: blue;
+outline: none;}
+.pain {
+ float: right;
+
+}
